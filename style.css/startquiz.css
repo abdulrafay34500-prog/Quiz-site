@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     row-gap: 50px;
-    display: none;
+    
 }
 .quiz-game-text{
     font-size: 60px;
