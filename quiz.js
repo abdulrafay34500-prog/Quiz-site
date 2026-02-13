@@ -1,5 +1,5 @@
 import {Questions} from './data/questions.js'
-
+console.log(Questions)
 rendering()
 function rendering() {
     
@@ -32,7 +32,7 @@ function rendering() {
             
             
 
-        let Html=`<p class="Question-counter"><span>0</span> Out of 5</p>
+        let Html=`<p class="Question-counter"><span class="question-count">${Number(index + 1)}</span> Out of 5</p>
                     <h2>${question.question}</h2>
                     
             <div class="ans-options">
@@ -54,9 +54,8 @@ function rendering() {
                 let qus =Questions[indexx]
 
                 FinalResult(selectedAnswer , qus)
-
-
-
+                console.log(indexx)
+                 
 
                 index++
                 generatingHtml()
@@ -97,10 +96,15 @@ function rendering() {
         document.querySelector('.js-play-again-button')
         .addEventListener('click' ,()=>{
             
-            
-            parentDiv.classList.add('Starting-over')
+             parentDiv.classList.remove('parent-dive')
+             parentDiv.classList.remove('test-Done')
+             rightAnswers=0
             
         })
+
+        ////////////////////////////////////////////////////
+
+       
 
 
 }
