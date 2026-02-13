@@ -18,3 +18,9 @@ main{
   justify-content: center;
 }
 
+.parent-dive .start-quiz-page{
+  display: none;
+}
+.parent-dive .questining-page{
+  display: initial;
+}

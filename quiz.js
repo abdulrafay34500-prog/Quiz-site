@@ -1,7 +1,7 @@
 let startButton = document.getElementById('js-start-quiz')
-let body =document.querySelector.body
+let parentDiv =document.querySelector('.parent-div')
 
 startButton.addEventListener('click' ,()=>{
-    console.log('j')
-    body.classList.add('.removePage')
+    parentDiv.classList.add('parent-dive')
+    
 })
