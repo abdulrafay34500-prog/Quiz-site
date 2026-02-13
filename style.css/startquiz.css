@@ -27,3 +27,13 @@ width: 400px;
     color: white;
     cursor: pointer;
 }
+.parent-dive .start-quiz-page{
+  display: none;
+}
+.Starting-over .start-quiz-page{
+  display: initial;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+}

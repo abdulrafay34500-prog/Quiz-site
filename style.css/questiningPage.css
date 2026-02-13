@@ -19,6 +19,9 @@
 .answers:hover{
       background-color:rgb(243, 243, 243);
 }
+.parent-dive .questining-page{
+  display: initial;
+}
 
 .test-Done .questining-page{
     display: none;
