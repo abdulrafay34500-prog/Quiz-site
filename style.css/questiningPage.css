@@ -1,0 +1,21 @@
+.questining-page{
+display: none;
+}
+.Question-counter{
+    font-size: 20px;
+    font-weight: bold;
+}
+.answers{
+    height: 45px;
+    width: 440px;
+    border: 1px solid black;
+    padding:10px 10px 10px 10px;
+    font-size: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.answers:hover{
+      background-color:rgb(243, 243, 243);
+}
