@@ -1,5 +1,5 @@
 .questining-page{
-display: none;
+ display: none;
 }
 .Question-counter{
     font-size: 20px;
@@ -18,4 +18,8 @@ display: none;
 }
 .answers:hover{
       background-color:rgb(243, 243, 243);
+}
+
+.test-Done .questining-page{
+    display: none;
 }
